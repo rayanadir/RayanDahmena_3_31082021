@@ -162,6 +162,36 @@ a {
     margin: 0 0 0.5rem 0.5rem;
 }
 
+.details {
+    display: flex;
+    align-items: center;
+}
+
+.noms {
+    flex: 1;
+}
+
+.like {
+    margin-right: 1rem;
+}
+
+.icone_like {
+    font-size: 23px;
+}
+
+.icone_like:hover {
+    color: #FF79DA;
+}
+
+.nouveau {
+    color: green;
+    background-color: rgb(135, 228, 135);
+    position: absolute;
+    right: 2rem;
+    margin-top: 1rem;
+    padding: .3rem .8rem;
+}
+
 footer {
     background-color: rgb(37, 36, 36);
     padding: 1rem;
@@ -200,4 +230,9 @@ footer {
 .mentions_contact {
     margin-top: 5px;
     margin-bottom: 0px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
