@@ -115,4 +115,15 @@ section {
 .icone_etape {
     padding: 0 0px 0 30px;
     width: 3rem;
+    color: grey;
+}
+
+.icone_etape_trois {
+    padding: 0 0px 0 30px;
+    width: 3rem;
+    color: #9356DC;
+}
+
+.purple {
+    background-color: #e3d7f1;
 }
