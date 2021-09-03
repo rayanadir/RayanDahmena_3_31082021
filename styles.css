@@ -1,9 +1,13 @@
-.logo{
-    font-family: "Shrikhand",cursive;
+@font-face {
+    font-family: "Shrikhand";
+    src: url('Shrikhand-Regular.ttf');
+}
+
+.logo {
+    font-family: "Shrikhand";
     text-align: center;
 }
 
-.titre{
-    font-family: Shrikhand,"cursive";
+.titre {
+    font-family: "Shrikhand";
 }
-
