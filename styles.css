@@ -84,9 +84,23 @@ section {
     align-items: center;
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
     border-radius: 1rem;
+    width: 100%;
 }
 
 .interieur {
     display: flex;
     align-items: center;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.numero {
+    background-color: #9356DC;
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+    color: white;
+    height: 1rem;
+    width: 1rem;
+    text-align-last: center;
+    margin: 0 0 0 -0.7rem;
 }
