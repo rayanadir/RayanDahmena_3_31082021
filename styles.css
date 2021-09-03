@@ -3,6 +3,11 @@
     src: url('Shrikhand-Regular.ttf');
 }
 
+@font-face {
+    font-family: "Roboto";
+    src: url('Roboto-Regular.ttf');
+}
+
 .logo {
     font-family: "Shrikhand";
     text-align: center;
@@ -10,4 +15,8 @@
 
 .titre {
     font-family: "Shrikhand";
+}
+
+body {
+    margin: 0;
 }
