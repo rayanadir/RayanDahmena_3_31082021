@@ -127,3 +127,33 @@ section {
 .purple {
     background-color: #e3d7f1;
 }
+
+.restaurant {
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.image_restaurant {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+    height: 10rem;
+}
+
+.section_restaurants {
+    background-color: #eaeaea;
+    padding: 3rem 1rem 3rem 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nom_restaurant {
+    color: black;
+    font-weight: 600;
+}
+
+.nom_quartier {
+    color: black;
+}
