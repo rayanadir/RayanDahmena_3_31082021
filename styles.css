@@ -14,10 +14,6 @@
     margin: 0;
 }
 
-.titre {
-    font-family: "Shrikhand";
-}
-
 body {
     margin: 0;
 }
@@ -163,5 +159,45 @@ a {
 
 .nom_quartier {
     color: black;
-    margin: 0.5rem 0 0.5rem 0.5rem;
+    margin: 0 0 0.5rem 0.5rem;
+}
+
+footer {
+    background-color: rgb(37, 36, 36);
+    padding: 1rem;
+    color: white;
+    font-family: "Roboto";
+}
+
+.icone_footer {
+    color: white;
+    width: 20px;
+}
+
+.logo_footer {
+    font-family: "Shrikhand";
+    font-size: 18px;
+}
+
+.proposer_restaurant {
+    display: flex;
+    align-items: center;
+    height: 19px;
+    margin-top: 5px;
+}
+
+.devenir_partenaire {
+    display: flex;
+    align-items: center;
+    height: 19px;
+    margin-top: 5px;
+}
+
+.titre_footer_icone {
+    margin-left: 10px;
+}
+
+.mentions_contact {
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
