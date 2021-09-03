@@ -20,3 +20,19 @@
 body {
     margin: 0;
 }
+
+.section_localisation {
+    background-color: #c5c5c5;
+}
+
+.localisation {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.nom_localisation {
+    font-family: "Roboto";
+    margin-left: 15px;
+}
