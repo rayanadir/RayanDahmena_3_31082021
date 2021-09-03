@@ -36,3 +36,22 @@ body {
     font-family: "Roboto";
     margin-left: 15px;
 }
+
+.section_explorer {
+    background-color: #eaeaea;
+    font-family: "Roboto";
+    padding: 1rem;
+}
+
+.reserver {
+    text-align: center;
+}
+
+.decouvrir {
+    text-align: center;
+}
+
+.explorer {
+    padding: 1rem;
+    border-radius: 2rem;
+}
