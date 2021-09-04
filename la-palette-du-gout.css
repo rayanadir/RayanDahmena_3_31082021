@@ -64,3 +64,23 @@ img {
 .icone_like {
     font-size: 30px;
 }
+
+.titre {
+    font-family: "Roboto";
+}
+
+.entrees {
+    display: flex;
+    flex-direction: column;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.article {
+    background-color: white;
+    border-radius: 1rem;
+    width: 90%;
+}
