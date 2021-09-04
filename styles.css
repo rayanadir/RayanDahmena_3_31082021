@@ -197,7 +197,7 @@ a {
 
 footer {
     background-color: rgb(37, 36, 36);
-    padding: 1rem;
+    padding: 1rem 1rem 3rem 1rem;
     color: white;
     font-family: "Roboto";
 }
