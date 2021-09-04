@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Shrikhand";
+    src: url('Shrikhand-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('Roboto-Regular.ttf');
+}
+
+.logo {
+    font-family: "Shrikhand";
+    text-align: center;
+    margin: 0;
+    flex: 1;
+}
+
+.conteneur_header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.retour {
+    font-size: x-large;
+    margin-left: 1rem;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.section_recettes {
+    background-color: #eaeaea;
+    border-radius: 3rem 3rem 0 0;
+    height: 300px;
+    margin-top: -80px;
+    position: relative;
+}
+
+.titre {
+    font-family: "Shrikhand";
+}
+
+.titre_like {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.icone_like {
+    font-size: 30px;
+}
