@@ -44,10 +44,14 @@ img {
 }
 
 .section_recettes {
+    display: flex;
+    flex-direction: column;
     background-color: #eaeaea;
     border-radius: 3rem 3rem 0 0;
     margin-top: -80px;
     position: relative;
+    padding: 1rem 1rem 3rem 1rem;
+    row-gap: 2rem;
 }
 
 .titre {
@@ -58,7 +62,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
 }
 
 .icone_like {
@@ -72,7 +75,6 @@ img {
 .entrees {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
 }
 
 .articles {
@@ -114,11 +116,19 @@ img {
 .plats {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
 }
 
 .desserts {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+}
+
+.commander {
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 2rem;
+    border: 0px;
+    place-self: center;
+    background: linear-gradient(#FF79DA, #9356DC);
+    color: white;
+    font-size: medium;
 }
