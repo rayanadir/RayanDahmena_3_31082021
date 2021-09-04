@@ -36,6 +36,7 @@
 
 body {
     margin: 0;
+    font-family: "Roboto";
 }
 
 img {
@@ -45,7 +46,6 @@ img {
 .section_recettes {
     background-color: #eaeaea;
     border-radius: 3rem 3rem 0 0;
-    height: 300px;
     margin-top: -80px;
     position: relative;
 }
@@ -57,7 +57,7 @@ img {
 .titre_like {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1rem;
 }
 
@@ -72,15 +72,37 @@ img {
 .entrees {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
 }
 
 .articles {
     display: flex;
     flex-direction: column;
+    row-gap: 1rem;
 }
 
 .article {
     background-color: white;
     border-radius: 1rem;
-    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.25rem;
+}
+
+.description_prix {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 5px 5px;
+}
+
+.nom {
+    margin: 5px 0 5px 5px;
+}
+
+.description {
+    margin: 0;
+}
+
+.prix {
+    margin: 0 1rem 0 0;
 }
