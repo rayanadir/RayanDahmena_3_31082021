@@ -32,6 +32,7 @@
 .retour {
     font-size: x-large;
     margin-left: 1rem;
+    color: black;
 }
 
 body {
@@ -54,7 +55,7 @@ img {
     row-gap: 2rem;
 }
 
-.titre {
+.titre_restaurant {
     font-family: "Shrikhand";
 }
 
