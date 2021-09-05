@@ -246,19 +246,34 @@ footer {
     cursor: pointer;
 }
 
+.propositions_footer {
+    display: flex;
+}
+
 
 /*Pour les écrans de moins de 1024px de largeur*/
 
-@media (max-width: 1023px) {}
+@media (max-width: 1023px) {
+    .propositions_footer {
+        flex-direction: column;
+    }
+}
 
 
 /* 1024px < width < 1439px */
 
 @media (min-width:1024px) and (max-width:1439px) {
+    .etapes {
+        display: flex;
+        justify-content: space-between;
+    }
     .restaurants {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         row-gap: 2rem;
+        column-gap: 2rem;
+    }
+    .propositions_footer {
         column-gap: 2rem;
     }
 }
@@ -281,7 +296,6 @@ footer {
         height: 15rem;
     }
     .propositions_footer {
-        display: flex;
         column-gap: 2rem;
     }
 }
