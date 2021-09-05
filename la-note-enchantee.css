@@ -44,3 +44,93 @@ img {
     width: 100%;
     height: 20rem;
 }
+
+.section_recettes {
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaea;
+    border-radius: 3rem 3rem 0 0;
+    margin-top: -80px;
+    position: relative;
+    padding: 1rem 1rem 3rem 1rem;
+    row-gap: 2rem;
+}
+
+.titre_restaurant {
+    font-family: "Shrikhand";
+}
+
+.titre_like {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icone_like {
+    font-size: 30px;
+}
+
+.titre {
+    font-family: "Roboto";
+}
+
+.entrees {
+    display: flex;
+    flex-direction: column;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.article {
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.25rem;
+}
+
+.description_prix {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 5px 5px;
+}
+
+.nom {
+    margin: 5px 0 5px 5px;
+}
+
+.description {
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-right: 1rem;
+}
+
+.prix {
+    margin: 0 1rem 0 0;
+}
+
+.plats {
+    display: flex;
+    flex-direction: column;
+}
+
+.desserts {
+    display: flex;
+    flex-direction: column;
+}
+
+.commander {
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 2rem;
+    border: 0px;
+    place-self: center;
+    background: linear-gradient(#FF79DA, #9356DC);
+    color: white;
+    font-size: medium;
+}
