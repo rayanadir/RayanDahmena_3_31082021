@@ -133,6 +133,7 @@ img {
     background: linear-gradient(#FF79DA, #9356DC);
     color: white;
     font-size: medium;
+    cursor: pointer;
 }
 
 footer {

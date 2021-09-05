@@ -18,6 +18,11 @@ body {
     margin: 0;
 }
 
+.wrapper {
+    max-width: 1440px;
+    margin: auto;
+}
+
 .header {
     padding: 1rem;
 }
@@ -27,7 +32,7 @@ section {
 }
 
 .section_localisation {
-    background-color: #c5c5c5;
+    background-color: #dfdfdf;
 }
 
 .localisation {
@@ -149,6 +154,7 @@ section {
 
 a {
     text-decoration: none;
+    position: relative;
 }
 
 .nom_restaurant {
@@ -239,3 +245,15 @@ footer {
     text-decoration: underline;
     cursor: pointer;
 }
+
+
+/*Pour les écrans de moins de 1024px de largeur*/
+
+@media (max-width: 1023px) {}
+
+
+/* 1024px < width < 1439px */
+
+@media (min-width:1024px) and (max-width:1439px) {}
+
+@media (min-width:1440px) {}
