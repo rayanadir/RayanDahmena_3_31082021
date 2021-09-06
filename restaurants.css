@@ -150,6 +150,10 @@ footer {
     font-family: "Roboto";
 }
 
+footer a {
+    color: white;
+}
+
 .icone_footer {
     color: white;
     width: 20px;

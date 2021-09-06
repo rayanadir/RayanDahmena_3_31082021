@@ -69,6 +69,7 @@ section {
     background: linear-gradient(#FF79DA, #9356DC);
     color: white;
     font-size: medium;
+    cursor: pointer;
 }
 
 .reservation {
@@ -206,6 +207,10 @@ footer {
     padding: 1rem 1rem 3rem 1rem;
     color: white;
     font-family: "Roboto";
+}
+
+footer a {
+    color: white;
 }
 
 .icone_footer {
