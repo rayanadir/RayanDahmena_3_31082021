@@ -82,11 +82,18 @@ img {
 
 .titre {
     font-family: "Roboto";
+    margin-bottom: 5px;
 }
 
-.entrees {
+.soulignement {
+    border-top: 3px solid #99E2D0;
+    width: 40px;
+}
+
+.choix {
     display: flex;
     flex-direction: column;
+    row-gap: 1rem;
 }
 
 .articles {
@@ -123,16 +130,6 @@ img {
 
 .prix {
     margin: 0 1rem 0 0;
-}
-
-.plats {
-    display: flex;
-    flex-direction: column;
-}
-
-.desserts {
-    display: flex;
-    flex-direction: column;
 }
 
 .commander {
@@ -253,5 +250,8 @@ footer {
     }
     .titre_like {
         column-gap: 5rem;
+    }
+    .article {
+        padding: .5rem
     }
 }
