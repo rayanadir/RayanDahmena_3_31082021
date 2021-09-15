@@ -1,0 +1,19 @@
+{
+    "name": "p3_rayan_dahmena",
+    "version": "1.0.0",
+    "scripts": {
+        "sass": "sass --watch sass:public/css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rayanadir/RayanDahmena_3_31082021.git"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rayanadir/RayanDahmena_3_31082021/issues"
+    },
+    "homepage": "https://github.com/rayanadir/RayanDahmena_3_31082021#readme",
+    "dependencies": {
+        "sass": "^1.41.0"
+    }
+}
