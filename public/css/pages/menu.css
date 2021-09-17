@@ -1,3 +1,63 @@
+header {
+  padding: 1rem;
+}
+header__logo {
+  font-family: "Shrikhand";
+  text-align: center;
+  margin: 0;
+}
+header__wrapper {
+  max-width: 1440px;
+  margin: auto;
+}
 
+footer {
+  background-color: #252424;
+  padding: 1rem 1rem 3rem 1rem;
+  color: white;
+  font-family: "Roboto";
+}
+footer__wrapper {
+  max-width: 1440px;
+  margin: auto;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer__icone_footer {
+  color: white;
+  width: 20px;
+}
+footer__logo_footer {
+  font-family: "Shrikhand";
+  font-size: 18px;
+}
+footer__proposer_restaurant {
+  display: flex;
+  align-items: center;
+  height: 19px;
+  margin-top: 5px;
+}
+footer__devenir_partenaire {
+  display: flex;
+  align-items: center;
+  height: 19px;
+  margin-top: 5px;
+}
+footer__titre_footer_icone {
+  margin-left: 10px;
+}
+footer__mentions_contact {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+footer__underline:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+footer__propositions_footer {
+  display: flex;
+}
 
 /*# sourceMappingURL=menu.css.map */

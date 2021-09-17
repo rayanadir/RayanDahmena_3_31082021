@@ -1,0 +1,48 @@
+footer {
+    background-color: rgb(37, 36, 36);
+    padding: 1rem 1rem 3rem 1rem;
+    color: white;
+    font-family: "Roboto";
+    &__wrapper {
+        max-width: 1440px;
+        margin: auto;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    &__icone_footer {
+        color: white;
+        width: 20px;
+    }
+    &__logo_footer {
+        font-family: "Shrikhand";
+        font-size: 18px;
+    }
+    &__proposer_restaurant {
+        display: flex;
+        align-items: center;
+        height: 19px;
+        margin-top: 5px;
+    }
+    &__devenir_partenaire {
+        display: flex;
+        align-items: center;
+        height: 19px;
+        margin-top: 5px;
+    }
+    &__titre_footer_icone {
+        margin-left: 10px;
+    }
+    &__mentions_contact {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    &__underline:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    &__propositions_footer {
+        display: flex;
+    }
+}

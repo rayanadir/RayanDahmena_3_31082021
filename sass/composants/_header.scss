@@ -1,0 +1,12 @@
+header {
+    padding: 1rem;
+    &__logo {
+        font-family: "Shrikhand";
+        text-align: center;
+        margin: 0;
+    }
+    &__wrapper {
+        max-width: 1440px;
+        margin: auto;
+    }
+}
