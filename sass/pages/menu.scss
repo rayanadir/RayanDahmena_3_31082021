@@ -4,6 +4,8 @@
 @import '../composants/button';
 @import '../composants/header';
 @import '../composants/footer';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Roboto&display=swap');
 @font-face {
     font-family: "Shrikhand";
     src: url('Shrikhand-Regular.ttf');
@@ -32,7 +34,6 @@
 .header {
     display: flex;
     align-items: center;
-    width: 100%;
     justify-content: center;
 }
 
