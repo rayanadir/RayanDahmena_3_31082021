@@ -1,4 +1,4 @@
-footer {
+.footer {
     background-color: rgb(37, 36, 36);
     padding: 1rem 1rem 3rem 1rem;
     color: white;
@@ -44,5 +44,6 @@ footer {
     }
     &__propositions_footer {
         display: flex;
+        column-gap: 2rem;
     }
 }

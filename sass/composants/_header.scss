@@ -1,11 +1,16 @@
+@font-face {
+    font-family: "Shrikhand";
+    src: url('Shrikhand-Regular.ttf');
+}
+
 header {
     padding: 1rem;
-    &__logo {
-        font-family: "Shrikhand";
+    .logo {
+        font-family: "Shrikhand", 'cursive';
         text-align: center;
         margin: 0;
     }
-    &__wrapper {
+    .wrapper {
         max-width: 1440px;
         margin: auto;
     }

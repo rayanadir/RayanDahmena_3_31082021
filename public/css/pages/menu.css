@@ -1,63 +1,386 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Regular.ttf");
+}
+.explorer {
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 0px;
+  place-self: center;
+  background: linear-gradient(#FF79DA, #9356DC);
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.commander {
+  padding: 1rem 3rem 1rem 3rem;
+  border-radius: 2rem;
+  border: 0px;
+  place-self: center;
+  background: linear-gradient(#FF79DA, #9356DC);
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "Shrikhand";
+  src: url("Shrikhand-Regular.ttf");
+}
 header {
   padding: 1rem;
 }
-header__logo {
-  font-family: "Shrikhand";
+header .logo {
+  font-family: "Shrikhand", "cursive";
   text-align: center;
   margin: 0;
 }
-header__wrapper {
+header .wrapper {
   max-width: 1440px;
   margin: auto;
 }
 
+.footer {
+  background-color: #252424;
+  padding: 1rem 1rem 3rem 1rem;
+  color: white;
+  font-family: "Roboto";
+}
+.footer__wrapper {
+  max-width: 1440px;
+  margin: auto;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer__icone_footer {
+  color: white;
+  width: 20px;
+}
+.footer__logo_footer {
+  font-family: "Shrikhand";
+  font-size: 18px;
+}
+.footer__proposer_restaurant {
+  display: flex;
+  align-items: center;
+  height: 19px;
+  margin-top: 5px;
+}
+.footer__devenir_partenaire {
+  display: flex;
+  align-items: center;
+  height: 19px;
+  margin-top: 5px;
+}
+.footer__titre_footer_icone {
+  margin-left: 10px;
+}
+.footer__mentions_contact {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.footer__underline:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer__propositions_footer {
+  display: flex;
+  column-gap: 2rem;
+}
+
+@font-face {
+  font-family: "Shrikhand";
+  src: url("Shrikhand-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Regular.ttf");
+}
+.logo {
+  font-family: "Shrikhand";
+  text-align: center;
+  margin: 0;
+  flex: 1;
+}
+
+.header_conteneur {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  height: 60px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.retour {
+  font-size: x-large;
+  margin-left: 1rem;
+  color: black;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/*
+.section_recettes {
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaea;
+    border-radius: 3rem 3rem 0 0;
+    margin-top: -80px;
+    position: relative;
+    padding: 1rem 1rem 3rem 1rem;
+    row-gap: 2rem;
+}*/
+.titre_restaurant {
+  font-family: "Shrikhand";
+}
+
+.titre_like {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icone_like {
+  font-size: 30px;
+}
+
+.titre {
+  font-family: "Roboto";
+  margin-bottom: 5px;
+}
+
+.soulignement {
+  border-top: 3px solid #99E2D0;
+  width: 40px;
+}
+
+.choix {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.article {
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem;
+}
+
+.description_prix {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 5px 5px;
+}
+
+.nom {
+  margin: 5px 0 5px 5px;
+}
+
+.description {
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 1rem;
+}
+
+.prix {
+  margin: 0 1rem 0 0;
+}
+
+/*
+.commander {
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 2rem;
+    border: 0px;
+    place-self: center;
+    background: linear-gradient(#FF79DA, #9356DC);
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+*/
 footer {
   background-color: #252424;
   padding: 1rem 1rem 3rem 1rem;
   color: white;
   font-family: "Roboto";
 }
-footer__wrapper {
-  max-width: 1440px;
-  margin: auto;
-}
+
 footer a {
   color: white;
   text-decoration: none;
 }
-footer__icone_footer {
+
+.icone_footer {
   color: white;
   width: 20px;
 }
-footer__logo_footer {
+
+.logo_footer {
   font-family: "Shrikhand";
   font-size: 18px;
 }
-footer__proposer_restaurant {
+
+.proposer_restaurant {
   display: flex;
   align-items: center;
   height: 19px;
   margin-top: 5px;
 }
-footer__devenir_partenaire {
+
+.devenir_partenaire {
   display: flex;
   align-items: center;
   height: 19px;
   margin-top: 5px;
 }
-footer__titre_footer_icone {
+
+.titre_footer_icone {
   margin-left: 10px;
 }
-footer__mentions_contact {
+
+.mentions_contact {
   margin-top: 5px;
   margin-bottom: 0px;
 }
-footer__underline:hover {
+
+.underline:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-footer__propositions_footer {
+
+.propositions_footer {
   display: flex;
+}
+
+@media (max-width: 1023px) {
+  .propositions_footer {
+    flex-direction: column;
+  }
+
+  .entrees_plats_desserts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    max-height: 27rem;
+  }
+
+  .section_recettes {
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaea;
+    border-radius: 3rem 3rem 0 0;
+    margin-top: -80px;
+    position: relative;
+    padding: 1rem 1rem 3rem 1rem;
+    row-gap: 2rem;
+  }
+
+  .wrapper {
+    margin: 0;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  img {
+    max-height: 17rem;
+  }
+
+  .section_recettes {
+    background-color: #eaeaea;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin-top: -4px;
+  }
+
+  .article {
+    width: 320px;
+  }
+
+  .entrees_plats_desserts {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .propositions_footer {
+    column-gap: 2rem;
+  }
+
+  .wrapper {
+    margin: 0;
+  }
+}
+@media (min-width: 1440px) {
+  .propositions_footer {
+    column-gap: 2rem;
+  }
+
+  .entrees_plats_desserts {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5rem;
+    /*width: 1024px;*/
+  }
+
+  .section_recettes {
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaea;
+    position: relative;
+    padding: 1rem 1rem 3rem 1rem;
+    row-gap: 2rem;
+  }
+
+  img {
+    max-height: 24rem;
+  }
+
+  .image {
+    background-color: #eaeaea;
+  }
+
+  .titre_like {
+    column-gap: 5rem;
+  }
+
+  .article {
+    padding: 0.5rem;
+  }
 }
 
 /*# sourceMappingURL=menu.css.map */

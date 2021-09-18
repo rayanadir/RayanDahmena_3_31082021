@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('Roboto-Regular.ttf');
+}
+
+.explorer {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 0px;
+    place-self: center;
+    background: linear-gradient(#FF79DA, #9356DC);
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.commander {
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 2rem;
+    border: 0px;
+    place-self: center;
+    background: linear-gradient(#FF79DA, #9356DC);
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
