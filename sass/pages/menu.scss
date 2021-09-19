@@ -243,12 +243,18 @@ footer a {
         row-gap: 2rem;
         margin-top: -4px;
     }
-    .article {
+    /*.article {
         width: 320px;
-    }
+    }*/
     .entrees_plats_desserts {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+    }
+    .articles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        row-gap: 1rem;
     }
     .propositions_footer {
         column-gap: 2rem;
@@ -287,5 +293,14 @@ footer a {
     }
     .article {
         padding: .5rem
+    }
+}
+
+@media (min-width:800px) and (max-width:1023px) {
+    .articles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        row-gap: 1rem;
     }
 }
