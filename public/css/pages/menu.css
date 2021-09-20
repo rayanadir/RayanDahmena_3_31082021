@@ -156,17 +156,6 @@ img {
   object-fit: cover;
 }
 
-/*
-.section_recettes {
-    display: flex;
-    flex-direction: column;
-    background-color: #eaeaea;
-    border-radius: 3rem 3rem 0 0;
-    margin-top: -80px;
-    position: relative;
-    padding: 1rem 1rem 3rem 1rem;
-    row-gap: 2rem;
-}*/
 .titre_restaurant {
   font-family: "Shrikhand";
 }
@@ -210,41 +199,25 @@ img {
   flex-direction: column;
   padding: 0.25rem;
 }
-
-.description_prix {
+.article__description_prix {
   display: flex;
   justify-content: space-between;
   margin: 0 0 5px 5px;
 }
-
-.nom {
+.article__nom {
   margin: 5px 0 5px 5px;
 }
-
-.description {
+.article__description {
   margin: 0;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   padding-right: 1rem;
 }
-
-.prix {
+.article__prix {
   margin: 0 1rem 0 0;
 }
 
-/*
-.commander {
-    padding: 1rem 3rem 1rem 3rem;
-    border-radius: 2rem;
-    border: 0px;
-    place-self: center;
-    background: linear-gradient(#FF79DA, #9356DC);
-    color: white;
-    font-size: medium;
-    cursor: pointer;
-}
-*/
 footer {
   background-color: #252424;
   padding: 1rem 1rem 3rem 1rem;
