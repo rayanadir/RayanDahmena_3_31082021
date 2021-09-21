@@ -78,7 +78,7 @@ img {
 }
 
 .soulignement {
-    border-top: 3px solid #99E2D0;
+    border-top: 3px solid $color-tertiary;
     width: 40px;
 }
 
@@ -98,8 +98,11 @@ img {
     background-color: white;
     border-radius: 1rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 0.25rem;
+    cursor: pointer;
+    height: 4rem;
+    align-items: center;
     &__description_prix {
         display: flex;
         justify-content: space-between;
@@ -118,25 +121,46 @@ img {
     &__prix {
         margin: 0 1rem 0 0;
     }
+    &__nom_description_prix {
+        flex: 1;
+    }
     &__coche {
-        background-color: #99e2d0;
         margin: -1rem -5rem -1rem 1rem;
+        width: 4rem;
+        display: flex;
+        background-color: $color-tertiary;
+        align-items: center;
+        justify-content: center;
+        transition-duration: .5s;
+        height: 4.5rem;
+        border-radius: 0rem 1rem 1rem 0rem;
+    }
+    &:hover &__coche {
+        margin-right: -0.3rem;
+        background-color: $color-tertiary;
         width: 4rem;
         display: flex;
         align-items: center;
         justify-content: center;
         transition-duration: .5s;
-    }
-    &:hover &__coche {
-        margin-right: -1rem;
+        height: 4.5rem;
+        border-radius: 0rem 1rem 1rem 0rem;
     }
     &:hover &__icone_coche {
         transform: rotate(0);
+        height: 1.6rem;
+        width: 1.6rem;
+        background-color: $color-tertiary;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+        transition-duration: .5s;
     }
     &__icone_coche {
         height: 1.6rem;
         width: 1.6rem;
-        background-color: #fff;
+        background-color: $color-tertiary;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -145,7 +169,7 @@ img {
         transition-duration: .5s;
     }
     &__icone {
-        color: $color-tertiary;
+        color: white;
     }
 }
 

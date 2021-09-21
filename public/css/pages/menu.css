@@ -196,8 +196,11 @@ img {
   background-color: white;
   border-radius: 1rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 0.25rem;
+  cursor: pointer;
+  height: 4rem;
+  align-items: center;
 }
 .article__description_prix {
   display: flex;
@@ -217,25 +220,46 @@ img {
 .article__prix {
   margin: 0 1rem 0 0;
 }
+.article__nom_description_prix {
+  flex: 1;
+}
 .article__coche {
-  background-color: #99e2d0;
   margin: -1rem -5rem -1rem 1rem;
+  width: 4rem;
+  display: flex;
+  background-color: #99E2D0;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.5s;
+  height: 4.5rem;
+  border-radius: 0rem 1rem 1rem 0rem;
+}
+.article:hover .article__coche {
+  margin-right: -0.3rem;
+  background-color: #99E2D0;
   width: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
   transition-duration: 0.5s;
-}
-.article:hover .article__coche {
-  margin-right: -1rem;
+  height: 4.5rem;
+  border-radius: 0rem 1rem 1rem 0rem;
 }
 .article:hover .article__icone_coche {
   transform: rotate(0);
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: #99E2D0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  transition-duration: 0.5s;
 }
 .article__icone_coche {
   height: 1.6rem;
   width: 1.6rem;
-  background-color: #fff;
+  background-color: #99E2D0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -244,7 +268,7 @@ img {
   transition-duration: 0.5s;
 }
 .article__icone {
-  color: #99E2D0;
+  color: white;
 }
 
 /*
