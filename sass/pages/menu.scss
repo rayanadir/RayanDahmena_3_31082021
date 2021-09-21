@@ -1,6 +1,7 @@
 @import '../utils/flexbox';
 @import '../themes/variables';
 @import '../layouts/mediaqueries';
+@import '../layouts/like';
 @import '../composants/button';
 @import '../composants/header';
 @import '../composants/footer';
@@ -70,6 +71,7 @@ img {
 
 .icone_like {
     font-size: 30px;
+    cursor: pointer;
 }
 
 .titre {
@@ -172,62 +174,6 @@ img {
         color: white;
     }
 }
-
-
-/*
-footer {
-    background-color: rgb(37, 36, 36);
-    padding: 1rem 1rem 3rem 1rem;
-    color: white;
-    font-family: "Roboto";
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-.icone_footer {
-    color: white;
-    width: 20px;
-}
-
-.logo_footer {
-    font-family: "Shrikhand";
-    font-size: 18px;
-}
-
-.proposer_restaurant {
-    display: flex;
-    align-items: center;
-    height: 19px;
-    margin-top: 5px;
-}
-
-.devenir_partenaire {
-    display: flex;
-    align-items: center;
-    height: 19px;
-    margin-top: 5px;
-}
-
-.titre_footer_icone {
-    margin-left: 10px;
-}
-
-.mentions_contact {
-    margin-top: 5px;
-    margin-bottom: 0px;
-}
-
-.underline:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.propositions_footer {
-    display: flex;
-}*/
 
 @media (max-width: 1023px) {
     .propositions_footer {

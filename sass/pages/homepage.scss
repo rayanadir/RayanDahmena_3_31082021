@@ -2,6 +2,7 @@
 @import '../themes/variables';
 @import '../layouts/mediaqueries';
 @import '../layouts/loading_spinner';
+@import '../layouts/like';
 @import '../composants/button';
 @import '../composants/header';
 @import '../composants/footer';
@@ -59,19 +60,6 @@ section {
 .decouvrir {
     text-align: center;
 }
-
-
-/*
-.explorer {
-    padding: 1rem;
-    border-radius: 2rem;
-    border: 0px;
-    place-self: center;
-    background: linear-gradient(#FF79DA, #9356DC);
-    color: white;
-    font-size: medium;
-    cursor: pointer;
-}*/
 
 .reservation {
     display: flex;
@@ -160,9 +148,10 @@ section {
     padding: 3rem 1rem 3rem 1rem;
 }
 
-a {
+.titre {
     text-decoration: none;
     position: relative;
+    flex: 1;
 }
 
 .nom_restaurant {
@@ -179,6 +168,7 @@ a {
 .details {
     display: flex;
     align-items: center;
+    height: 60px;
 }
 
 .noms {
@@ -193,13 +183,6 @@ a {
     font-size: 23px;
     color: black;
 }
-
-
-/*
-.icone_like:hover {
-    color: #FF79DA;
-}
-*/
 
 .nouveau {
     color: green;

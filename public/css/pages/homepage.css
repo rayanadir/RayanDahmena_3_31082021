@@ -63,6 +63,60 @@ Spinner par https://loading.io/css/
   }
 }
 
+.heart-container {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.heart-clip {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  clip-path: url(#svgPath);
+}
+.heart-clip:hover::before {
+  transform: scale(1);
+  opacity: 1;
+}
+.heart-clip::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(#9356DC, #FF79DA);
+  opacity: 0;
+  transform: scale(0);
+  transition: transform 0.2s linear, opacity 0.2s linear;
+  transform-origin: center 60%;
+}
+
+.heart-stroke {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.heart-home {
+  margin-right: 1rem;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.2);
+  }
+  60% {
+    transform: scale(1);
+  }
+}
 @font-face {
   font-family: "Roboto";
   src: url("Roboto-Regular.ttf");
@@ -219,17 +273,6 @@ section {
   text-align: center;
 }
 
-/*
-.explorer {
-    padding: 1rem;
-    border-radius: 2rem;
-    border: 0px;
-    place-self: center;
-    background: linear-gradient(#FF79DA, #9356DC);
-    color: white;
-    font-size: medium;
-    cursor: pointer;
-}*/
 .reservation {
   display: flex;
   flex-direction: column;
@@ -317,9 +360,10 @@ section {
   padding: 3rem 1rem 3rem 1rem;
 }
 
-a {
+.titre {
   text-decoration: none;
   position: relative;
+  flex: 1;
 }
 
 .nom_restaurant {
@@ -336,6 +380,7 @@ a {
 .details {
   display: flex;
   align-items: center;
+  height: 60px;
 }
 
 .noms {
@@ -351,11 +396,6 @@ a {
   color: black;
 }
 
-/*
-.icone_like:hover {
-    color: #FF79DA;
-}
-*/
 .nouveau {
   color: green;
   background-color: #87e487;
