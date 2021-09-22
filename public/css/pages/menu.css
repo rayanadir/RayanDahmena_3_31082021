@@ -279,8 +279,8 @@ img {
   flex: 1;
 }
 .article__coche {
-  margin: -1rem -5rem -1rem 1rem;
-  width: 4rem;
+  /*margin: -1rem -5rem -1rem 1rem;*/
+  width: 0;
   display: flex;
   background-color: #99E2D0;
   align-items: center;
@@ -290,7 +290,7 @@ img {
   border-radius: 0rem 1rem 1rem 0rem;
 }
 .article:hover .article__coche {
-  margin-right: -0.3rem;
+  margin-right: -4px;
   background-color: #99E2D0;
   width: 4rem;
   display: flex;
@@ -305,7 +305,7 @@ img {
   height: 1.6rem;
   width: 1.6rem;
   background-color: #99E2D0;
-  display: flex;
+  visibility: visible;
   align-items: center;
   justify-content: center;
   border-radius: 100px;
@@ -315,12 +315,13 @@ img {
   height: 1.6rem;
   width: 1.6rem;
   background-color: #99E2D0;
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
   border-radius: 100px;
   transform: rotate(180deg);
   transition-duration: 0.5s;
+  visibility: hidden;
 }
 .article__icone {
   color: white;

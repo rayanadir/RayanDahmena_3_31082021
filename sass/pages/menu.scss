@@ -1,7 +1,7 @@
 @import '../utils/flexbox';
 @import '../themes/variables';
 @import '../layouts/mediaqueries';
-@import '../layouts/like';
+@import '../composants/like';
 @import '../composants/button';
 @import '../composants/header';
 @import '../composants/footer';
@@ -127,8 +127,9 @@ img {
         flex: 1;
     }
     &__coche {
-        margin: -1rem -5rem -1rem 1rem;
-        width: 4rem;
+        /*margin: -1rem -5rem -1rem 1rem;*/
+        // width: 4rem;
+        width: 0;
         display: flex;
         background-color: $color-tertiary;
         align-items: center;
@@ -138,7 +139,7 @@ img {
         border-radius: 0rem 1rem 1rem 0rem;
     }
     &:hover &__coche {
-        margin-right: -0.3rem;
+        margin-right: -4px;
         background-color: $color-tertiary;
         width: 4rem;
         display: flex;
@@ -153,7 +154,7 @@ img {
         height: 1.6rem;
         width: 1.6rem;
         background-color: $color-tertiary;
-        display: flex;
+        visibility: visible;
         align-items: center;
         justify-content: center;
         border-radius: 100px;
@@ -163,12 +164,13 @@ img {
         height: 1.6rem;
         width: 1.6rem;
         background-color: $color-tertiary;
-        display: flex;
         align-items: center;
+        display: flex;
         justify-content: center;
         border-radius: 100px;
         transform: rotate( 180deg);
         transition-duration: .5s;
+        visibility: hidden;
     }
     &__icone {
         color: white;

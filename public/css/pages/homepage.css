@@ -7,60 +7,14 @@ Spinner par https://loading.io/css/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Roboto&display=swap");
 .loader {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
-  background-color: #dfdfdf;
+  background-color: grey;
+  color: white;
   z-index: 1;
-  animation: loader 0.01s;
-  animation-delay: 1.75s;
-  animation-fill-mode: both;
-}
-.loader .titre {
-  font-family: "Shrikhand", "cursive";
-}
-.loader .lds-facebook {
-  display: inline-block;
-  position: relative;
-  width: 80px;
-  height: 80px;
-}
-.loader .lds-facebook div {
-  display: inline-block;
-  position: absolute;
-  left: 8px;
-  width: 16px;
-  background: #fff;
-  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
-}
-.loader .lds-facebook div:nth-child(1) {
-  left: 8px;
-  animation-delay: -0.24s;
-  background: #9356DC;
-}
-.loader .lds-facebook div:nth-child(2) {
-  left: 32px;
-  animation-delay: -0.12s;
-  background: #FF79DA;
-}
-.loader .lds-facebook div:nth-child(3) {
-  left: 56px;
-  animation-delay: 0;
-  background: #99E2D0;
-}
-@keyframes lds-facebook {
-  0% {
-    top: 8px;
-    height: 64px;
-  }
-  50%, 100% {
-    top: 24px;
-    height: 32px;
-  }
 }
 
 .heart-container {
@@ -232,6 +186,7 @@ header .wrapper {
 }
 body {
   margin: 0;
+  position: relative;
 }
 
 .wrapper {
@@ -286,8 +241,9 @@ section {
   display: flex;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   width: 100%;
+  height: 65px;
 }
 
 .article:hover {
@@ -313,7 +269,7 @@ section {
 
 .etapes {
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
 }
 
 .nom_etape {
