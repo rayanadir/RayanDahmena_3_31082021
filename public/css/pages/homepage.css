@@ -16,8 +16,8 @@ Spinner par https://loading.io/css/
   width: 100%;
   background-color: #ededed;
   z-index: 1;
-  animation: loading 0.5s;
-  animation-delay: 3s;
+  animation: loading 1s;
+  animation-delay: 5s;
   animation-fill-mode: both;
 }
 .loader__titre {
@@ -76,6 +76,7 @@ Spinner par https://loading.io/css/
   }
   100% {
     opacity: 0;
+    z-index: -1;
   }
 }
 

@@ -14,8 +14,8 @@ Spinner par https://loading.io/css/
     width: 100%;
     background-color: $grey-medium;
     z-index: 1;
-    animation: loading 0.5s;
-    animation-delay: 3s;
+    animation: loading 1s;
+    animation-delay: 5s;
     animation-fill-mode: both;
     &__titre {
         font-family: "Shrikhand", 'cursive';
@@ -74,6 +74,7 @@ Spinner par https://loading.io/css/
         }
         100% {
             opacity: 0;
+            z-index: -1;
         }
     }
 }
