@@ -33,7 +33,7 @@ section {
 }
 
 .section_localisation {
-    background-color: #dfdfdf;
+    background-color: $grey-medium;
 }
 
 .localisation {
@@ -49,7 +49,7 @@ section {
 }
 
 .section_explorer {
-    background-color: #eaeaea;
+    background-color: $grey-light;
     font-family: "Roboto";
     padding: 1rem 3rem 3rem 3rem;
 }
@@ -91,7 +91,7 @@ section {
 }
 
 .numero {
-    background-color: #9356DC;
+    background-color: $color-primary;
     padding: 0.3rem;
     border-radius: 0.8rem;
     color: white;
@@ -119,11 +119,7 @@ section {
 .icone_etape_trois {
     padding: 0 0px 0 30px;
     width: 3rem;
-    color: #9356DC;
-}
-
-.purple {
-    background-color: #e3d7f1;
+    color: $color-primary;
 }
 
 .restaurants {
@@ -146,7 +142,7 @@ section {
 }
 
 .section_restaurants {
-    background-color: #eaeaea;
+    background-color: $grey-light;
     padding: 3rem 1rem 3rem 1rem;
 }
 
@@ -188,7 +184,7 @@ section {
 
 .nouveau {
     color: green;
-    background-color: rgb(135, 228, 135);
+    background-color: $color-tertiary;
     position: absolute;
     right: 2rem;
     margin-top: 1rem;

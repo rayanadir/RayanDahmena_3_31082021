@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Roboto&display=swap");
+@keyframes apparition {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .heart-container {
   position: relative;
   width: 40px;
@@ -256,6 +264,7 @@ img {
   cursor: pointer;
   height: 4rem;
   align-items: center;
+  animation: apparition 1000ms;
 }
 .article__description_prix {
   display: flex;

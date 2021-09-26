@@ -1,6 +1,7 @@
 @import '../utils/flexbox';
 @import '../themes/variables';
 @import '../layouts/mediaqueries';
+@import '../layouts/apparition';
 @import '../composants/like';
 @import '../composants/button';
 @import '../composants/header';
@@ -105,6 +106,7 @@ img {
     cursor: pointer;
     height: 4rem;
     align-items: center;
+    animation: apparition 1000ms;
     &__description_prix {
         display: flex;
         justify-content: space-between;
