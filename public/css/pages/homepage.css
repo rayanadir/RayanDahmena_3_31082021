@@ -7,16 +7,89 @@ Spinner par https://loading.io/css/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Roboto&display=swap");
 .loader {
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
   height: 100%;
   width: 100%;
-  background-color: grey;
-  color: white;
+  background-color: #ededed;
   z-index: 1;
+  animation: loading 0.5s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}
+.loader__titre {
+  font-family: "Shrikhand", "cursive";
+}
+.loader .lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.loader .lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #fff;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.loader .lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+  background: #9356DC;
+}
+.loader .lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+  background: #FF79DA;
+}
+.loader .lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+  background: #99E2D0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+@keyframes show-loading {
+  0% {
+    display: block;
+  }
+  100% {
+    display: none;
+  }
+}
+@keyframes loading {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
+/*
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    z-index: 1;
+}*/
 .heart-container {
   position: relative;
   width: 40px;
