@@ -334,6 +334,7 @@ img {
 }
 .article__icone {
   color: white;
+  font-size: x-large;
 }
 
 @media (max-width: 1023px) {
