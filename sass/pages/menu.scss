@@ -91,6 +91,22 @@ img {
     row-gap: 1rem;
 }
 
+.article-1 {
+    animation: apparition .2s;
+}
+
+.article-2 {
+    animation: apparition 1s;
+}
+
+.article-3 {
+    animation: apparition 2s;
+}
+
+.article-4 {
+    animation: apparition 3s;
+}
+
 .articles {
     display: flex;
     flex-direction: column;
@@ -106,7 +122,7 @@ img {
     cursor: pointer;
     height: 4rem;
     align-items: center;
-    animation: apparition 1000ms;
+    //animation: apparition 1000ms;
     width: 400px;
     &__description_prix {
         display: flex;
