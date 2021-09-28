@@ -107,7 +107,7 @@ img {
     height: 4rem;
     align-items: center;
     animation: apparition 1000ms;
-    width: 100%;
+    width: 400px;
     &__description_prix {
         display: flex;
         justify-content: space-between;
@@ -272,7 +272,16 @@ img {
         column-gap: 5rem;
     }
     .article {
-        padding: .5rem
+        &__nom {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        &__description {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
     }
 }
 
