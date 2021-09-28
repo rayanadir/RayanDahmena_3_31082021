@@ -107,6 +107,7 @@ img {
     height: 4rem;
     align-items: center;
     animation: apparition 1000ms;
+    width: 100%;
     &__description_prix {
         display: flex;
         justify-content: space-between;
@@ -114,6 +115,9 @@ img {
     }
     &__nom {
         margin: 5px 0 5px 5px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
     &__description {
         margin: 0;
@@ -127,6 +131,7 @@ img {
     }
     &__nom_description_prix {
         flex: 1;
+        width: 65%;
     }
     &__coche {
         /*margin: -1rem -5rem -1rem 1rem;*/
