@@ -84,6 +84,12 @@ button:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: 0.2s;
 }
+button:active {
+  background-color: #ae80e5;
+  background-blend-mode: lighten;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.2s;
+}
 
 .explorer {
   padding: 1rem;
