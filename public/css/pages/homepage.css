@@ -274,7 +274,7 @@ section {
 .localisation {
   display: flex;
   align-items: center;
-  width: fit-content;
+  justify-content: center;
   margin: auto;
 }
 
