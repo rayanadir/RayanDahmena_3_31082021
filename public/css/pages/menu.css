@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Roboto&display=swap");
 @keyframes apparition {
   0% {
@@ -92,10 +93,6 @@ button:hover {
   padding: 1rem 3rem 1rem 3rem;
 }
 
-@font-face {
-  font-family: "Shrikhand";
-  src: url("Shrikhand-Regular.ttf");
-}
 header {
   padding: 1rem;
 }
@@ -110,7 +107,7 @@ header .wrapper {
 }
 
 .footer {
-  background-color: #252424;
+  background-color: #353535;
   padding: 1rem 1rem 3rem 1rem;
   color: white;
   font-family: "Roboto";
@@ -280,7 +277,6 @@ img {
   cursor: pointer;
   height: 4rem;
   align-items: center;
-  width: 400px;
 }
 .article__description_prix {
   display: flex;
@@ -456,6 +452,9 @@ img {
     column-gap: 5rem;
   }
 
+  .article {
+    width: 400px;
+  }
   .article__nom {
     overflow: hidden;
     white-space: nowrap;
