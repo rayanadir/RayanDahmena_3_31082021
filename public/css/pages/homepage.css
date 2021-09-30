@@ -403,6 +403,12 @@ section {
   display: flex;
   align-items: center;
   height: 60px;
+  flex: 1;
+  text-decoration: none;
+}
+
+.details_like {
+  display: flex;
 }
 
 .noms {
@@ -410,7 +416,7 @@ section {
 }
 
 .like {
-  margin-right: 1rem;
+  display: grid;
 }
 
 .icone_like {
