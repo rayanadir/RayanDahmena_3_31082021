@@ -60,6 +60,10 @@
     clip-path: url(#svgPath4);
 }
 
+.heart-menu {
+    clip-path: url(#svgPathMenu);
+}
+
 @keyframes pulse {
     0% {
         transform: scale(1);
