@@ -318,6 +318,7 @@ section {
 
 .article:hover {
   cursor: pointer;
+  background-color: #e3d7f1;
 }
 
 .interieur {
