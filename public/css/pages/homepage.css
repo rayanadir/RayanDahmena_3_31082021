@@ -104,7 +104,6 @@ Spinner par https://loading.io/css/
   height: 100%;
   position: relative;
   overflow: hidden;
-  clip-path: url(#svgPath);
 }
 .heart-clip:hover::before {
   transform: scale(1);
@@ -133,6 +132,22 @@ Spinner par https://loading.io/css/
 
 .heart-home {
   margin-right: 1rem;
+}
+
+.heart-path1 {
+  clip-path: url(#svgPath1);
+}
+
+.heart-path2 {
+  clip-path: url(#svgPath2);
+}
+
+.heart-path3 {
+  clip-path: url(#svgPath3);
+}
+
+.heart-path4 {
+  clip-path: url(#svgPath4);
 }
 
 @keyframes pulse {
