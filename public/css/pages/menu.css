@@ -10,6 +10,22 @@
     transform: scale(1);
   }
 }
+@keyframes apparition_coche {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes disparition_coche {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .heart-container {
   position: relative;
   width: 40px;
@@ -353,6 +369,7 @@ img {
   justify-content: center;
   border-radius: 100px;
   transition-duration: 0.5s;
+  animation: apparition_coche 0.5s;
 }
 .article__icone_coche {
   height: 1.6rem;
@@ -365,6 +382,7 @@ img {
   transform: rotate(180deg);
   transition-duration: 0.5s;
   visibility: hidden;
+  animation: disparition_coche 0.5s;
 }
 .article__icone {
   color: white;
