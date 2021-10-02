@@ -121,7 +121,6 @@ img {
     cursor: pointer;
     height: 4rem;
     align-items: center;
-    //animation: apparition 1000ms;
     &__description_prix {
         display: flex;
         justify-content: space-between;
@@ -148,8 +147,6 @@ img {
         width: 65%;
     }
     &__coche {
-        /*margin: -1rem -5rem -1rem 1rem;*/
-        // width: 4rem;
         width: 0;
         display: flex;
         background-color: $color-tertiary;
@@ -239,9 +236,6 @@ img {
         row-gap: 2rem;
         margin-top: -4px;
     }
-    /*.article {
-        width: 320px;
-    }*/
     .entrees_plats_desserts {
         display: flex;
         flex-direction: column;
@@ -268,7 +262,6 @@ img {
         display: flex;
         justify-content: space-between;
         column-gap: 5rem;
-        /*width: 1024px;*/
     }
     .section_recettes {
         display: flex;

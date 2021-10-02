@@ -81,17 +81,6 @@ Spinner par https://loading.io/css/
   }
 }
 
-/*
-.loader {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: grey;
-    color: white;
-    z-index: 1;
-}*/
 .heart-container {
   position: relative;
   width: 40px;
@@ -189,15 +178,15 @@ button:active {
   padding: 1rem 3rem 1rem 3rem;
 }
 
-header {
+.header {
   padding: 1rem;
 }
-header .logo {
+.header__logo {
   font-family: "Shrikhand", "cursive";
   text-align: center;
   margin: 0;
 }
-header .wrapper {
+.header__wrapper {
   max-width: 1440px;
   margin: auto;
 }

@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap');
-header {
+.header {
     padding: 1rem;
-    .logo {
+    &__logo {
         font-family: "Shrikhand", 'cursive';
         text-align: center;
         margin: 0;
     }
-    .wrapper {
+    &__wrapper {
         max-width: 1440px;
         margin: auto;
     }

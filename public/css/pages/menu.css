@@ -123,15 +123,15 @@ button:active {
   padding: 1rem 3rem 1rem 3rem;
 }
 
-header {
+.header {
   padding: 1rem;
 }
-header .logo {
+.header__logo {
   font-family: "Shrikhand", "cursive";
   text-align: center;
   margin: 0;
 }
-header .wrapper {
+.header__wrapper {
   max-width: 1440px;
   margin: auto;
 }
@@ -338,7 +338,6 @@ img {
   width: 65%;
 }
 .article__coche {
-  /*margin: -1rem -5rem -1rem 1rem;*/
   width: 0;
   display: flex;
   background-color: #99E2D0;
@@ -432,9 +431,6 @@ img {
     margin-top: -4px;
   }
 
-  /*.article {
-      width: 320px;
-  }*/
   .entrees_plats_desserts {
     display: flex;
     flex-direction: column;
@@ -464,7 +460,6 @@ img {
     display: flex;
     justify-content: space-between;
     column-gap: 5rem;
-    /*width: 1024px;*/
   }
 
   .section_recettes {
