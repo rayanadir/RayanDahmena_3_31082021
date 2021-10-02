@@ -278,11 +278,10 @@ img {
         padding: 1rem 1rem 3rem 1rem;
         row-gap: 2rem;
     }
-    img {
-        max-height: 24rem;
-    }
-    .image {
+    .image_restaurant {
         background-color: #eaeaea;
+        max-height: 24rem;
+        margin-bottom: -1rem;
     }
     .titre_like {
         column-gap: 5rem;

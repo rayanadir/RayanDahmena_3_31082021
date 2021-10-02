@@ -476,12 +476,10 @@ img {
     row-gap: 2rem;
   }
 
-  img {
-    max-height: 24rem;
-  }
-
-  .image {
+  .image_restaurant {
     background-color: #eaeaea;
+    max-height: 24rem;
+    margin-bottom: -1rem;
   }
 
   .titre_like {
