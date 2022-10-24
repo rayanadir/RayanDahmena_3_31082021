@@ -14,7 +14,7 @@
   0% {
     opacity: 0;
   }
-  100% {
+  70% {
     opacity: 1;
   }
 }
@@ -22,10 +22,16 @@
   0% {
     opacity: 1;
   }
+  40% {
+    opacity: 0.2;
+  }
   100% {
     opacity: 0;
   }
 }
+/*
+    https://codepen.io/GeorgeWL/pen/yLeGGMw
+*/
 .heart-container {
   position: relative;
   width: 40px;
@@ -311,6 +317,8 @@ img {
   cursor: pointer;
   height: 4rem;
   align-items: center;
+  position: relative;
+  overflow: hidden;
 }
 .article__description_prix {
   display: flex;
@@ -322,6 +330,7 @@ img {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  position: relative;
 }
 .article__description {
   margin: 0;
@@ -329,9 +338,11 @@ img {
   white-space: nowrap;
   text-overflow: ellipsis;
   padding-right: 1rem;
+  position: relative;
 }
 .article__prix {
   margin: 0 1rem 0 0;
+  transition-duration: 0.5s;
 }
 .article__nom_description_prix {
   flex: 1;
@@ -345,7 +356,20 @@ img {
   justify-content: center;
   transition-duration: 0.5s;
   height: 4.5rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
   border-radius: 0rem 1rem 1rem 0rem;
+}
+.article:hover .article__nom {
+  width: inherit;
+  transition: all 0.5s ease-in-out;
+  transition-duration: 0.5s;
+}
+.article:hover .article__prix {
+  padding-right: 3rem;
+  transition-duration: 0.5s;
 }
 .article:hover .article__coche {
   margin-right: -4px;

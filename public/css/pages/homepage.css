@@ -63,14 +63,6 @@ Spinner par https://loading.io/css/
     height: 32px;
   }
 }
-@keyframes show-loading {
-  0% {
-    display: block;
-  }
-  100% {
-    display: none;
-  }
-}
 @keyframes loading {
   0% {
     opacity: 1;
@@ -81,6 +73,9 @@ Spinner par https://loading.io/css/
   }
 }
 
+/*
+    https://codepen.io/GeorgeWL/pen/yLeGGMw
+*/
 .heart-container {
   position: relative;
   width: 40px;
