@@ -121,6 +121,8 @@ img {
     cursor: pointer;
     height: 4rem;
     align-items: center;
+    position: relative;
+    overflow: hidden;
     &__description_prix {
         display: flex;
         justify-content: space-between;
@@ -131,6 +133,7 @@ img {
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
+        position: relative;
     }
     &__description {
         margin: 0;
@@ -138,9 +141,11 @@ img {
         white-space: nowrap;
         text-overflow: ellipsis;
         padding-right: 1rem;
+        position: relative;
     }
     &__prix {
         margin: 0 1rem 0 0;
+        transition-duration: .5s;
     }
     &__nom_description_prix {
         flex: 1;
@@ -154,7 +159,20 @@ img {
         justify-content: center;
         transition-duration: .5s;
         height: 4.5rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
         border-radius: 0rem 1rem 1rem 0rem;
+    }
+    &:hover &__nom{
+        width: inherit;
+        transition: all .5s ease-in-out;
+        transition-duration: .5s;
+    }
+    &:hover &__prix{
+        padding-right: 3rem;
+        transition-duration: .5s;
     }
     &:hover &__coche {
         margin-right: -4px;
