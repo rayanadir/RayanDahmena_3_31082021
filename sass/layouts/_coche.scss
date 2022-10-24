@@ -2,7 +2,7 @@
     0% {
         opacity: 0;
     }
-    100% {
+    70%{
         opacity: 1;
     }
 }
@@ -10,6 +10,9 @@
 @keyframes disparition_coche {
     0% {
         opacity: 1;
+    }
+    40%{
+        opacity: .2;
     }
     100% {
         opacity: 0;
